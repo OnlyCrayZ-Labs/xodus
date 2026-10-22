@@ -1,0 +1,16 @@
+Upstream Xodus authors recorded at the source revision in PUBLICATION-PROVENANCE.md.
+Names retain upstream credit; local compatibility work uses the OnlyCrayZ identity.
+
+73chn1c
+AllanVester
+brother guy 42
+ChristopherHX
+Gilly
+Ismaël M.
+kalopsia-space
+Olivia
+Paweł Lidwin
+Samuel Domke
+snowyukitty
+Vidi
+vRXDk5U

@@ -1,0 +1,698 @@
+{
+  "EndPoints": [
+    {
+      "Protocol": "https",
+      "Host": "musicdelivery-ssl.xboxlive.com",
+      "HostType": "fqdn",
+      "RelyingParty": "http://music.xboxlive.com",
+      "TokenType": "JWT",
+      "SignaturePolicyIndex": 0
+    },
+    {
+      "Protocol": "https",
+      "Host": "cloudcollection-ssl.xboxlive.com",
+      "HostType": "fqdn",
+      "RelyingParty": "http://music.xboxlive.com",
+      "TokenType": "JWT",
+      "SignaturePolicyIndex": 0
+    },
+    {
+      "Protocol": "https",
+      "Host": "websockets.platform.bing.com",
+      "HostType": "fqdn",
+      "RelyingParty": "http://platform.bing.com/",
+      "TokenType": "JWT",
+      "SignaturePolicyIndex": 0
+    },
+    {
+      "Protocol": "https",
+      "Host": "websockets.platform.bing-int.com",
+      "HostType": "fqdn",
+      "RelyingParty": "http://platform.bing.com/",
+      "TokenType": "JWT",
+      "SignaturePolicyIndex": 0
+    },
+    {
+      "Protocol": "https",
+      "Host": "inventory.xboxlive.com",
+      "HostType": "fqdn",
+      "RelyingParty": "http://licensing.xboxlive.com",
+      "TokenType": "JWT",
+      "SignaturePolicyIndex": 0
+    },
+    {
+      "Protocol": "https",
+      "Host": "licensing.xboxlive.com",
+      "HostType": "fqdn",
+      "RelyingParty": "http://licensing.xboxlive.com",
+      "TokenType": "JWT",
+      "SignaturePolicyIndex": 0
+    },
+    {
+      "Protocol": "https",
+      "Host": "accountstroubleshooter.xboxlive.com",
+      "HostType": "fqdn",
+      "RelyingParty": "http://accounts.xboxlive.com",
+      "TokenType": "JWT",
+      "SignaturePolicyIndex": 0
+    },
+    {
+      "Protocol": "https",
+      "Host": "gamertag.xboxlive.com",
+      "HostType": "fqdn",
+      "RelyingParty": "http://accounts.xboxlive.com",
+      "TokenType": "JWT",
+      "SignaturePolicyIndex": 0
+    },
+    {
+      "Protocol": "https",
+      "Host": "help.ui.xboxlive.com",
+      "HostType": "fqdn",
+      "RelyingParty": "http://uxservices.xboxlive.com",
+      "TokenType": "JWT",
+      "SignaturePolicyIndex": 0
+    },
+    {
+      "Protocol": "https",
+      "Host": "*.ui.xboxlive.com",
+      "HostType": "wildcard"
+    },
+    {
+      "Protocol": "https",
+      "Host": "data-vef.xboxlive.com",
+      "HostType": "fqdn",
+      "RelyingParty": "http://data-vef.xboxlive.com",
+      "TokenType": "JWT",
+      "SignaturePolicyIndex": 1
+    },
+    {
+      "Protocol": "https",
+      "Host": "update.xboxlive.com",
+      "HostType": "fqdn",
+      "RelyingParty": "http://update.xboxlive.com",
+      "TokenType": "JWT",
+      "SignaturePolicyIndex": 0
+    },
+    {
+      "Protocol": "https",
+      "Host": "updatepc.xboxlive.com",
+      "HostType": "fqdn",
+      "RelyingParty": "http://update.xboxlive.com",
+      "TokenType": "JWT",
+      "SignaturePolicyIndex": 0
+    },
+    {
+      "Protocol": "https",
+      "Host": "update-cdn.xboxlive.com",
+      "HostType": "fqdn",
+      "RelyingParty": "http://update.xboxlive.com",
+      "TokenType": "JWT",
+      "SignaturePolicyIndex": 0
+    },
+    {
+      "Protocol": "https",
+      "Host": "packages.xboxlive.com",
+      "HostType": "fqdn",
+      "RelyingParty": "http://update.xboxlive.com",
+      "TokenType": "JWT",
+      "SignaturePolicyIndex": 0
+    },
+    {
+      "Protocol": "https",
+      "Host": "packagespc.xboxlive.com",
+      "HostType": "fqdn",
+      "RelyingParty": "http://update.xboxlive.com",
+      "TokenType": "JWT",
+      "SignaturePolicyIndex": 0
+    },
+    {
+      "Protocol": "https",
+      "Host": "instance.mgt.xboxlive.com",
+      "HostType": "fqdn",
+      "RelyingParty": "http://instance.mgt.xboxlive.com",
+      "TokenType": "JWT",
+      "SignaturePolicyIndex": 2
+    },
+    {
+      "Protocol": "https",
+      "Host": "device.mgt.xboxlive.com",
+      "HostType": "fqdn",
+      "RelyingParty": "http://device.mgt.xboxlive.com",
+      "TokenType": "JWT",
+      "SignaturePolicyIndex": 1
+    },
+    {
+      "Protocol": "https",
+      "Host": "device.mgt.xboxlive.com",
+      "HostType": "fqdn",
+      "Path": "/registrations/bestv",
+      "RelyingParty": "http://bestv.device.mgt.xboxlive.com",
+      "TokenType": "JWT",
+      "SignaturePolicyIndex": 1
+    },
+    {
+      "Protocol": "https",
+      "Host": "device.mgt.xboxlive.com",
+      "HostType": "fqdn",
+      "Path": "/devices/current/unlock",
+      "RelyingParty": "http://unlock.device.mgt.xboxlive.com",
+      "TokenType": "JWT",
+      "SignaturePolicyIndex": 1
+    },
+    {
+      "Protocol": "https",
+      "Host": "xkms.xboxlive.com",
+      "HostType": "fqdn",
+      "RelyingParty": "http://xkms.xboxlive.com",
+      "TokenType": "JWT",
+      "MinTlsVersion": "1.2",
+      "SignaturePolicyIndex": 0
+    },
+    {
+      "Protocol": "https",
+      "Host": "privileges.xboxlive.com",
+      "HostType": "fqdn",
+      "RelyingParty": "http://banning.xboxlive.com",
+      "TokenType": "JWT",
+      "SignaturePolicyIndex": 1
+    },
+    {
+      "Protocol": "https",
+      "Host": "privileges.xboxlive.com",
+      "HostType": "fqdn",
+      "Path": "/upsell",
+      "RelyingParty": "http://xboxlive.com",
+      "TokenType": "JWT",
+      "SignaturePolicyIndex": 1
+    },
+    {
+      "Protocol": "https",
+      "Host": "settings.xboxlive.com",
+      "HostType": "fqdn",
+      "RelyingParty": "http://xboxlive.com",
+      "TokenType": "JWT",
+      "ServerCertIndex": [
+        0,
+        1
+      ],
+      "SignaturePolicyIndex": 1
+    },
+    {
+      "Protocol": "https",
+      "Host": "*.experimentation.xboxlive.com",
+      "HostType": "wildcard",
+      "RelyingParty": "http://experimentation.xboxlive.com/",
+      "TokenType": "JWT",
+      "SignaturePolicyIndex": 1
+    },
+    {
+      "Protocol": "https",
+      "Host": "*.xboxlive.com",
+      "HostType": "wildcard",
+      "RelyingParty": "http://xboxlive.com",
+      "TokenType": "JWT",
+      "SignaturePolicyIndex": 0
+    },
+    {
+      "Protocol": "https",
+      "Host": "xboxlive.com",
+      "HostType": "fqdn",
+      "RelyingParty": "http://xboxlive.com",
+      "TokenType": "JWT",
+      "SignaturePolicyIndex": 0
+    },
+    {
+      "Protocol": "http",
+      "Host": "*.xboxlive.com",
+      "HostType": "wildcard"
+    },
+    {
+      "Protocol": "https",
+      "Host": "xaaa.bbtv.cn",
+      "HostType": "fqdn",
+      "Path": "/xboxsms/OOBEService/AuthorizationStatus",
+      "RelyingParty": "http://bestvrp.bestv.com/",
+      "SubRelyingParty": "http://www.bestv.com.cn/",
+      "TokenType": "JWT",
+      "SignaturePolicyIndex": 0
+    },
+    {
+      "Protocol": "https",
+      "Host": "*.data.microsoft.com",
+      "HostType": "wildcard",
+      "RelyingParty": "http://vortex.microsoft.com",
+      "TokenType": "JWT"
+    },
+    {
+      "Protocol": "https",
+      "Host": "*.vortex-win-sandbox.data.microsoft.com",
+      "HostType": "wildcard",
+      "RelyingParty": "http://vortex-sbx.microsoft.com",
+      "TokenType": "JWT"
+    },
+    {
+      "Protocol": "https",
+      "Host": "*.vortex-sandbox.data.microsoft.com",
+      "HostType": "wildcard",
+      "RelyingParty": "http://vortex-sbx.microsoft.com",
+      "TokenType": "JWT"
+    },
+    {
+      "Protocol": "https",
+      "Host": "vortex-events.xboxlive.com",
+      "HostType": "fqdn",
+      "RelyingParty": "http://events.xboxlive.com",
+      "TokenType": "JWT"
+    },
+    {
+      "Protocol": "https",
+      "Host": "*.pipe.int.trafficmanager.net",
+      "HostType": "wildcard",
+      "RelyingParty": "http://vortex-sbx.microsoft.com",
+      "TokenType": "JWT"
+    },
+    {
+      "Protocol": "https",
+      "Host": "*.events-sandbox.data.microsoft.com",
+      "HostType": "wildcard",
+      "RelyingParty": "http://vortex-sbx.microsoft.com",
+      "TokenType": "JWT"
+    },
+    {
+      "Protocol": "https",
+      "Host": "musicimage.xboxlive.com",
+      "HostType": "fqdn"
+    },
+    {
+      "Protocol": "https",
+      "Host": "*.xboxservices.com",
+      "HostType": "wildcard",
+      "RelyingParty": "http://mp.microsoft.com/",
+      "TokenType": "JWT"
+    },
+    {
+      "Protocol": "https",
+      "Host": "assets.xboxservices.com",
+      "HostType": "fqdn"
+    },
+    {
+      "Protocol": "https",
+      "Host": "*.mp.microsoft.com",
+      "HostType": "wildcard",
+      "RelyingParty": "http://mp.microsoft.com/",
+      "TokenType": "JWT"
+    },
+    {
+      "Protocol": "https",
+      "Host": "account.microsoft.com",
+      "HostType": "fqdn",
+      "RelyingParty": "http://mp.microsoft.com/",
+      "TokenType": "JWT"
+    },
+    {
+      "Protocol": "https",
+      "Host": "*.account.microsoft.com",
+      "HostType": "wildcard",
+      "RelyingParty": "http://mp.microsoft.com/",
+      "TokenType": "JWT"
+    },
+    {
+      "Protocol": "https",
+      "Host": "licensing.mp.microsoft.com",
+      "HostType": "fqdn",
+      "RelyingParty": "http://licensing.xboxlive.com",
+      "TokenType": "JWT",
+      "SignaturePolicyIndex": 0
+    },
+    {
+      "Protocol": "https",
+      "Host": "collections.mp.microsoft.com",
+      "HostType": "fqdn",
+      "RelyingParty": "http://licensing.xboxlive.com",
+      "TokenType": "JWT",
+      "SignaturePolicyIndex": 0
+    },
+    {
+      "Protocol": "https",
+      "Host": "api.twitch.tv",
+      "HostType": "fqdn",
+      "RelyingParty": "https://twitchxboxrp.twitch.tv/",
+      "TokenType": "JWT"
+    },
+    {
+      "Protocol": "https",
+      "Host": "xdes.xboxlive.com",
+      "HostType": "fqdn",
+      "RelyingParty": "http://xdes.xboxlive.com/",
+      "TokenType": "JWT"
+    },
+    {
+      "Protocol": "https",
+      "Host": "*.gameservices.xboxlive.com",
+      "HostType": "wildcard",
+      "RelyingParty": "https://gameservices.xboxlive.com/",
+      "TokenType": "JWT"
+    },
+    {
+      "Protocol": "https",
+      "Host": "ssl.bing.com",
+      "HostType": "fqdn",
+      "Path": "/speechreco/xbox/accessibility",
+      "RelyingParty": "http://platform.bing.com/",
+      "TokenType": "JWT"
+    },
+    {
+      "Protocol": "https",
+      "Host": "speech.bing.com",
+      "HostType": "fqdn",
+      "RelyingParty": "http://platform.bing.com/",
+      "TokenType": "JWT"
+    },
+    {
+      "Protocol": "https",
+      "Host": "zto.dds.microsoft.com",
+      "HostType": "fqdn",
+      "RelyingParty": "http://dds.microsoft.com",
+      "TokenType": "JWT"
+    },
+    {
+      "Protocol": "https",
+      "Host": "user.mgt.xboxlive.com",
+      "HostType": "fqdn",
+      "RelyingParty": "http://accounts.xboxlive.com",
+      "TokenType": "JWT"
+    },
+    {
+      "Protocol": "https",
+      "Host": "gssv-auth-prod.xboxlive.com",
+      "HostType": "fqdn",
+      "RelyingParty": "http://gssv.xboxlive.com/",
+      "TokenType": "JWT"
+    },
+    {
+      "Protocol": "https",
+      "Host": "gssv-auth-strs.xboxlive.com",
+      "HostType": "fqdn",
+      "RelyingParty": "http://gssv.xboxlive.com/",
+      "TokenType": "JWT"
+    },
+    {
+      "Protocol": "https",
+      "Host": "*.gssv-play-prod.xboxlive.com",
+      "HostType": "wildcard",
+      "RelyingParty": "http://gssv.xboxlive.com/",
+      "TokenType": "JWT"
+    },
+    {
+      "Protocol": "https",
+      "Host": "*.gssv-play-test.xboxlive.com",
+      "HostType": "wildcard",
+      "RelyingParty": "http://gssv.xboxlive.com/",
+      "TokenType": "JWT"
+    },
+    {
+      "Protocol": "https",
+      "Host": "*.gssv-play-int.xboxlive.com",
+      "HostType": "wildcard",
+      "RelyingParty": "http://gssv.xboxlive.com/",
+      "TokenType": "JWT"
+    },
+    {
+      "Protocol": "https",
+      "Host": "*.gssv-play-prod.xboxlive.com",
+      "HostType": "wildcard",
+      "Path": "/v5/sessions/cloud",
+      "RelyingParty": "http://connect.gssv.xboxlive.com/",
+      "TokenType": "JWT",
+      "SignaturePolicyIndex": 0
+    },
+    {
+      "Protocol": "https",
+      "Host": "*.gssv-play-test.xboxlive.com",
+      "HostType": "wildcard",
+      "Path": "/v5/sessions/cloud",
+      "RelyingParty": "http://connect.gssv.xboxlive.com/",
+      "TokenType": "JWT",
+      "SignaturePolicyIndex": 0
+    },
+    {
+      "Protocol": "https",
+      "Host": "*.gssv-play-int.xboxlive.com",
+      "HostType": "wildcard",
+      "Path": "/v5/sessions/cloud",
+      "RelyingParty": "http://connect.gssv.xboxlive.com/",
+      "TokenType": "JWT",
+      "SignaturePolicyIndex": 0
+    },
+    {
+      "Protocol": "https",
+      "Host": "settings-sandbox.data.microsoft.com",
+      "HostType": "fqdn",
+      "RelyingParty": "http://onesettings-xbox-rp.com/",
+      "TokenType": "JWT"
+    },
+    {
+      "Protocol": "https",
+      "Host": "settings-win.data.microsoft.com",
+      "HostType": "fqdn",
+      "RelyingParty": "http://onesettings-xbox-rp.com/",
+      "TokenType": "JWT",
+      "ServerCertIndex": [
+        2
+      ]
+    },
+    {
+      "Protocol": "https",
+      "Host": "settings-ppe.data.microsoft.com",
+      "HostType": "fqdn",
+      "RelyingParty": "http://onesettings-xbox-rp.com/",
+      "TokenType": "JWT"
+    },
+    {
+      "Protocol": "https",
+      "Host": "settings.data.microsoft.com",
+      "HostType": "fqdn",
+      "RelyingParty": "http://onesettings-xbox-rp.com/",
+      "TokenType": "JWT",
+      "ServerCertIndex": [
+        3,
+        0
+      ]
+    },
+    {
+      "Protocol": "https",
+      "Host": "playfabapi.com",
+      "HostType": "fqdn",
+      "RelyingParty": "http://playfab.xboxlive.com/",
+      "TokenType": "JWT"
+    },
+    {
+      "Protocol": "https",
+      "Host": "sisu.xboxlive.com",
+      "HostType": "fqdn",
+      "RelyingParty": "http://sisu.xboxlive.com/",
+      "TokenType": "JWT",
+      "SignaturePolicyIndex": 0
+    },
+    {
+      "Protocol": "https",
+      "Host": "beta-sisu.xboxlive.com",
+      "HostType": "fqdn",
+      "RelyingParty": "http://sisu.xboxlive.com/",
+      "TokenType": "JWT",
+      "SignaturePolicyIndex": 0
+    },
+    {
+      "Protocol": "https",
+      "Host": "*.gamepass.com",
+      "HostType": "wildcard",
+      "RelyingParty": "http://xboxlive.com",
+      "TokenType": "JWT",
+      "SignaturePolicyIndex": 0
+    },
+    {
+      "Protocol": "https",
+      "Host": "xflight.xboxlive.com",
+      "HostType": "fqdn",
+      "RelyingParty": "http://xflight.xboxlive.com/",
+      "TokenType": "JWT",
+      "SignaturePolicyIndex": 0
+    },
+    {
+      "Protocol": "https",
+      "Host": "xrap.xboxlive.com",
+      "HostType": "fqdn",
+      "RelyingParty": "rp://rap.xboxflight.com/",
+      "TokenType": "JWT",
+      "SignaturePolicyIndex": 0
+    },
+    {
+      "Protocol": "https",
+      "Host": "rap-fd.xboxlive.com",
+      "HostType": "fqdn",
+      "RelyingParty": "rp://rap.xboxflight.com/",
+      "TokenType": "JWT",
+      "SignaturePolicyIndex": 0
+    },
+    {
+      "Protocol": "https",
+      "Host": "streaming.xboxlive.com",
+      "HostType": "fqdn",
+      "RelyingParty": "rp://streaming.xboxlive.com/",
+      "TokenType": "JWT",
+      "SignaturePolicyIndex": 0
+    },
+    {
+      "Protocol": "https",
+      "Host": "*.support.xboxlive.com",
+      "HostType": "wildcard",
+      "RelyingParty": "rp://support.xboxlive.com/",
+      "TokenType": "JWT",
+      "SignaturePolicyIndex": 0
+    },
+    {
+      "Protocol": "https",
+      "Host": "streaming-ppe.xboxlive.com",
+      "HostType": "fqdn",
+      "RelyingParty": "rp://streaming.xboxlive.com/",
+      "TokenType": "JWT",
+      "SignaturePolicyIndex": 0
+    },
+    {
+      "Protocol": "https",
+      "Host": "xoobe.xboxlive.com",
+      "HostType": "fqdn",
+      "RelyingParty": "rp://xoobe.xboxlive.com/",
+      "TokenType": "JWT",
+      "SignaturePolicyIndex": 0
+    },
+    {
+      "Protocol": "https",
+      "Host": "xoobe.platform.xboxservices.com",
+      "HostType": "fqdn",
+      "RelyingParty": "rp://xoobe.xboxlive.com/",
+      "TokenType": "JWT",
+      "SignaturePolicyIndex": 0
+    },
+    {
+      "Protocol": "https",
+      "Host": "*.ide.platform.xboxservices.com",
+      "HostType": "wildcard",
+      "RelyingParty": "rp://ide.platform.xboxservices.com/",
+      "TokenType": "JWT",
+      "SignaturePolicyIndex": 0
+    },
+    {
+      "Protocol": "https",
+      "Host": "*.ppe.exp.xboxservices.com",
+      "HostType": "wildcard",
+      "RelyingParty": "rp://ppe.exp.xboxservices.com/",
+      "TokenType": "JWT",
+      "SignaturePolicyIndex": 0
+    },
+    {
+      "Protocol": "https",
+      "Host": "*.exp.xboxservices.com",
+      "HostType": "wildcard",
+      "RelyingParty": "rp://exp.xboxservices.com/",
+      "TokenType": "JWT",
+      "SignaturePolicyIndex": 0
+    },
+    {
+      "Protocol": "https",
+      "Host": "contentaccess.exp.xboxservices.com",
+      "HostType": "fqdn",
+      "RelyingParty": "http://mp.microsoft.com/",
+      "TokenType": "JWT"
+    },
+    {
+      "Protocol": "https",
+      "Host": "gamingconsent-staging.xboxlive.com",
+      "HostType": "fqdn",
+      "RelyingParty": "http://gamingconsent.xboxlive.com",
+      "TokenType": "JWT",
+      "SignaturePolicyIndex": 0
+    },
+    {
+      "Protocol": "https",
+      "Host": "gamingconsent.xboxlive.com",
+      "HostType": "fqdn",
+      "RelyingParty": "http://gamingconsent.xboxlive.com",
+      "TokenType": "JWT",
+      "SignaturePolicyIndex": 0
+    },
+    {
+      "Protocol": "https",
+      "Host": "*.sucu.xboxlive.com",
+      "HostType": "wildcard",
+      "RelyingParty": "http://update.xboxlive.com",
+      "TokenType": "JWT",
+      "SignaturePolicyIndex": 0
+    },
+    {
+      "Protocol": "https",
+      "Host": "xai.xboxservices.com",
+      "HostType": "fqdn",
+      "RelyingParty": "rp://xai.xboxservices.com/",
+      "TokenType": "JWT",
+      "SignaturePolicyIndex": 0
+    },
+    {
+      "Protocol": "https",
+      "Host": "int.xai.xboxservices.com",
+      "HostType": "fqdn",
+      "RelyingParty": "rp://ppe.xai.xboxservices.com/",
+      "TokenType": "JWT",
+      "SignaturePolicyIndex": 0
+    },
+    {
+      "Protocol": "https",
+      "Host": "test.xai.xboxservices.com",
+      "HostType": "fqdn",
+      "RelyingParty": "rp://ppe.xai.xboxservices.com/",
+      "TokenType": "JWT",
+      "SignaturePolicyIndex": 0
+    },
+    {
+      "Protocol": "https",
+      "Host": "xgrant.xboxlive.com",
+      "HostType": "fqdn",
+      "RelyingParty": "rp://rewards.xboxlive.com",
+      "TokenType": "JWT",
+      "SignaturePolicyIndex": 0
+    }
+  ],
+  "SignaturePolicies": [
+    {
+      "Version": 1,
+      "SupportedAlgorithms": [
+        "ES256"
+      ],
+      "MaxBodyBytes": 8192,
+      "SupportedSignatureTypes": [
+        "XBL"
+      ]
+    },
+    {
+      "Version": 1,
+      "SupportedAlgorithms": [
+        "ES256"
+      ],
+      "MaxBodyBytes": 2147483647,
+      "SupportedSignatureTypes": [
+        "XBL"
+      ]
+    },
+    {
+      "Version": 2,
+      "SupportedAlgorithms": [
+        "ES256"
+      ],
+      "MaxBodyBytes": 0,
+      "SupportedSignatureTypes": [
+        "DPoP",
+        "XBL"
+      ]
+    }
+  ]
+}
